@@ -13,6 +13,7 @@
     "@astrojs/react": "^3.0.2",
     "@astrojs/tailwind": "^5.0.0",
     "@aws-sdk/client-s3": "^3.417.0",
+    "@excalidraw/excalidraw": "^0.16.1",
     "@hookform/resolvers": "^3.3.1",
     "@radix-ui/react-accordion": "^1.1.2",
     "@radix-ui/react-alert-dialog": "^1.0.4",

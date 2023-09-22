@@ -14,6 +14,9 @@ dependencies:
   '@aws-sdk/client-s3':
     specifier: ^3.417.0
     version: 3.417.0
+  '@excalidraw/excalidraw':
+    specifier: ^0.16.1
+    version: 0.16.1(react-dom@18.2.0)(react@18.2.0)
   '@hookform/resolvers':
     specifier: ^3.3.1
     version: 3.3.1(react-hook-form@7.46.2)
@@ -1463,6 +1466,16 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@excalidraw/excalidraw@0.16.1(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-4zirHk7dNx6SVq2jQmYOLliqAa1h3WPVqHM5qtJyhD769VsOqwlkopAcnZMb3G1PeIMm6cf2F31quS5MVqvoOQ==}
+    peerDependencies:
+      react: ^17.0.2 || ^18.2.0
+      react-dom: ^17.0.2 || ^18.2.0
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+    dev: false
 
   /@floating-ui/core@1.5.0:
     resolution: {integrity: sha512-kK1h4m36DQ0UHGj5Ah4db7R0rHemTqqO0QLvUqi1/mUUp3LuAWbWxdxSIf/XsnH9VS6rRVPLJCncjRzUvyCLXg==}
